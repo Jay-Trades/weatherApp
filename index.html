@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href ="styles.css">
+
+    <title>Weather App</title>
+</head>
+<body>
+    <section class="top-banner">
+        <div class="container">
+            <h1 class="heading">Weather App By Jay Chen</h1>
+            <h2 class="instructions">Enter your city for weather information</p>
+            <form>
+                <input type="text" name="city" class="form-control" placeholder="Search for a city">
+                <button type="submit">Get Weather</button>
+                <span class="msg"></span>
+            </form>
+        </div>
+    </section>
+
+    <section class="ajax-section">
+        <div class="container">
+            <ul class="cities">
+            </ul>
+        </div>
+    </section>
+    <script src="app.js"></script>
+
+</body>
+
+<footer>
+    <div class="container">
+        <small>Made by Jay Chen</small>
+    </div>
+</footer>
+</html>
